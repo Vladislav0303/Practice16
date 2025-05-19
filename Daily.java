@@ -15,6 +15,8 @@ public class Daily {
             System.out.println("Введіть куди записувати: ");
             String name = sc.nextLine();
             System.out.println("Виберіть пункт: ");
+            System.out.println("~1.Записати в щоденник~");
+            System.out.println("~2.Прочитати записи в щоденнику~");
             int c = sc.nextInt();
             if(c == 1) {
                 FileUtils.mynote(massdat, str1, name);
